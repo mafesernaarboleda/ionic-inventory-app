@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Prendas</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="page-products padding-content">
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card on-click="onNewProduct()">
+          <img height="120" src="https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2017/07/22/goods-first-img/1512783238312052513.jpg" />
+          <ion-card-content>
+              <p text-center><ion-icon color="primary" name="md-pricetags"></ion-icon> $70.000</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card>
+          <img height="120" src="https://gloimg.zafcdn.com/zaful/pdm-product-pic/Clothing/2017/07/22/goods-first-img/1512783238312052513.jpg" />
+          <ion-card-content>
+              <p text-center><ion-icon color="primary" name="md-pricetags"></ion-icon> $70.000</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
